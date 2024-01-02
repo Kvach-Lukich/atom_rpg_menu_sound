@@ -6,7 +6,7 @@ FOR /F "tokens=* USEBACKQ" %%F IN (`certutil -hashfile ..\AtomRPG_x64_Data\Strea
   SET var!count!=%%F
   SET /a count=!count!+1
 )
-if "!var2!"=="86 58 76 23 64 3f d6 41 c2 03 ce be 12 49 7b 10" (
+if "!var2!"=="d7 d2 03 75 24 4c fd ea b6 bf fa 48 29 78 f3 66" (
 
 move mainmenu.resource ..\AtomRPG_x64_Data\mainmenu.resource
 move ..\AtomRPG_x64_Data\StreamingAssets\game_sounds game_sounds_bkp
